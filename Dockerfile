@@ -4,7 +4,7 @@ LABEL maintaner="Rafael Peria de Sene - rpsene@br.ibm.com"
 LABEL year="2022"
 
 RUN apt-get update && apt-get upgrade -y && \
-apt-get install -y python3-pip libpq-dev \
+apt-get install -y iputils-ping python3-pip libpq-dev \
 python-dev build-essential && \
 pip3 install python-jenkins urllib3 pytz
 
