@@ -1,7 +1,7 @@
 FROM python:3.9
 
 LABEL maintaner="Rafael Peria de Sene - rpsene@br.ibm.com"
-LABEL year="2021"
+LABEL year="2022"
 
 RUN apt-get update && apt-get upgrade -y && \
 apt-get install -y python3-pip libpq-dev \
