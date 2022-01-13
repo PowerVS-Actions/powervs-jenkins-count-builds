@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.10
 
 LABEL maintaner="Rafael Peria de Sene - rpsene@br.ibm.com"
 LABEL year="2022"
@@ -19,4 +19,4 @@ ADD ./count_builds.py ./
 
 CMD ["count_builds.py"]
 
-ENTRYPOINT ["/usr/local/bin/python3.9"]
+ENTRYPOINT ["/usr/local/bin/python3.10"]
